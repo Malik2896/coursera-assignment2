@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+
 }
 body{
 	font-family: arial,halvetica,sarif;
@@ -14,7 +15,7 @@ div{
 }
 .row{
 	width:100;
-}
+}/*
 h2{
 	width:98px;
 	margin:0;
@@ -23,33 +24,43 @@ h2{
 	left:75%;
 	border:2px solid #000000;
 
+}*/
+#chicken,#sushi,#beef1{
+  float: right;
+  margin:0px;
+  text-align: center;
 }
+h2{
+  margin:0px;
+  margin-top:0px;
+}
+#chicken{
+  background: #D59898;
+}
+#beef1{
+  background: #C14543;
+}
+#sushi{
+  background:#e5d198;
+}
+
 p{
 	font-size: 20px;
 	width:90%;
 	text-align: justify;
+  clear: both;
 }
 #section_1 {
 	border:2px solid #000000;
-	padding: 10px;
+
 }
 #section_2 {
 	border:2px solid #000000;
-	padding: 10px;
 }
 #section_3 {
 	border:2px solid #000000;
-	padding: 10px;
 }
-#section_1 h2{
-	background: #D59898;
-}
-#section_2 h2{
-	background: #C14543;
-}
-#section_3 h2 {
-	background: #E5D198;
-}
+
 
 
 @media (min-width: 992px) {
